@@ -13,3 +13,32 @@ body {
 img {
     pointer-events: none;
 }
+
+#nav-item1 {
+    background-color: #57CEA0;
+}
+
+#nav-links p {
+    margin: 0 !important;
+}
+
+.nav-link {
+    cursor: pointer;
+    padding: 0;
+}
+
+.messages-count {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    background-color: #FF7A00;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.messages-count p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

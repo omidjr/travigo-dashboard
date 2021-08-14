@@ -14,17 +14,78 @@
 </head>
 
 <body>
-    <div class="container-lg bg-white rounded-3 p-4">
+    <div class="container-lg bg-white rounded-3 p-3">
         <div class="row">
-            <div class="col-lg-2 d-none d-lg-block">
-                <div class="bg-primary p-5 text-light">
-                    col-1
+            <!-- Navbar -->
+            <div class="col-lg-3 d-none d-lg-block">
+                <div class="container p-2 d-flex justify-content-center align-items-center flex-column">
+                    <div class="row">
+                        <div class="col">
+                            <img src="/img/logo.svg" alt="logo" class="img-fluid">
+                        </div>
+                    </div>
+                    <!-- Nav Links -->
+                    <div class="container my-5" id='nav-links'>
+                        <div class="row mb-3 py-2 rounded-3 d-flex align-items-center nav-link" id="nav-item1">
+                            <div class="col-3">
+                                <img src="/img/dashboard.svg" alt="dashboard" class="float-end">
+                            </div>
+                            <div class="col-9">
+                                <p class="lead text-white">Dashboard</p>
+                            </div>
+                        </div>
+                        <div class="row mb-3 py-2 rounded-3 d-flex align-items-center nav-link">
+                            <div class="col-3">
+                                <img src="/img/tickets.svg" alt="dashboard" class="float-end">
+                            </div>
+                            <div class="col-9">
+                                <p class="lead text-muted">My Tickets</p>
+                            </div>
+                        </div>
+                        <div class="row mb-3 py-2 rounded-3 d-flex align-items-center nav-link">
+                            <div class="col-3">
+                                <img src="/img/favorite.svg" alt="dashboard" class="float-end">
+                            </div>
+                            <div class="col-9">
+                                <p class="lead text-muted">Favorite</p>
+                            </div>
+                        </div>
+                        <div class="row mb-3 py-2 rounded-3 d-flex align-items-center nav-link">
+                            <div class="col-3">
+                                <img src="/img/message.svg" alt="dashboard" class="float-end">
+                            </div>
+                            <div class="col-6">
+                                <p class="lead text-muted">Messages</p>
+                            </div>
+                            <div class="col-3 float-end messages-count">
+                                <p>5</p>
+                            </div>
+                        </div>
+                        <div class="row mb-3 py-2 rounded-3 d-flex align-items-center nav-link">
+                            <div class="col-3">
+                                <img src="/img/transaction.svg" alt="dashboard" class="float-end">
+                            </div>
+                            <div class="col-9">
+                                <p class="lead text-muted">Transactions</p>
+                            </div>
+                        </div>
+                        <div class="row mb-3 py-2 rounded-3 d-flex align-items-center nav-link">
+                            <div class="col-3">
+                                <img src="/img/settings.svg" alt="dashboard" class="float-end">
+                            </div>
+                            <div class="col-9">
+                                <p class="lead text-muted">Settings</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Nav Links -->
                 </div>
             </div>
-            <div class="col-lg-7">
+            <!-- /Navbar -->
+            <div class="col-lg-5">
                 <div class="bg-primary p-5 text-light">col 2</div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-4">
                 <div class="bg-primary p-5 text-light">col 3</div>
             </div>
         </div>
