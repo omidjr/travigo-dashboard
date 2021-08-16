@@ -1,19 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 
 /* Global */
 
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    background-color: #A5DEC8;
-    font-family: 'Nunito', sans-serif;
+  background-color: #a5dec8;
+  font-family: "Nunito", sans-serif;
+  background-image: url("/img/bg2.svg");
+  background-position: center center;
+  background-repeat: repeat;
+  background-size: auto;
 }
 
 img {
-    pointer-events: none;
+  pointer-events: none;
+}
+
+p {
+  font-size: clamp(0.5rem, 0.875vw, 1rem) !important;
+}
+
+h1 {
+  font-size: clamp(1rem, 2vw, 2.26rem) !important;
 }
 
 /* Layout */
@@ -21,38 +33,38 @@ img {
 /* Navbar */
 
 #nav-item1 {
-    background-color: #57CEA0;
+  background-color: #57cea0;
 }
 
 #nav-links p {
-    margin: 0 !important;
+  margin: 0 !important;
 }
 
 .nav-link {
-    cursor: pointer;
-    padding: 0;
-}
-
-.messages-count {
-    position: relative;
-    width: 22px;
-    height: 22px;
-    background-color: #FF7A00;
-    color: #fff;
-    border-radius: 50%;
-}
-
-.messages-count p {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  cursor: pointer;
+  padding: 0;
 }
 
 #nav-logout p {
-    margin: 0 !important;
+  margin: 0 !important;
 }
 
 #nav-ad {
-    cursor: pointer;
+  cursor: pointer;
+}
+
+/* Main */
+
+.welcome {
+  font-weight: 700;
+}
+
+input {
+  position: relative;
+  outline: none;
+  border: none;
+}
+
+input:focus {
+  outline: 0;
 }
