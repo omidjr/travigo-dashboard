@@ -30,6 +30,10 @@ h1 {
 
 /* Layout */
 
+.main-container {
+  border-radius: 80px;
+}
+
 /* Navbar */
 
 #nav-item1 {
@@ -54,6 +58,10 @@ h1 {
 }
 
 /* Main */
+.main {
+  border-radius: 50px;
+  background-color: #f5f8f7;
+}
 
 .welcome {
   font-weight: 700;
@@ -63,8 +71,25 @@ input {
   position: relative;
   outline: none;
   border: none;
+  font-size: small;
 }
 
 input:focus {
   outline: 0;
+}
+
+.notification {
+  width: 45px;
+  height: 45px;
+  position: relative;
+  cursor: pointer;
+}
+
+.notification-count {
+  position: absolute;
+  top: 15%;
+  right: 15%;
+  width: 16px;
+  height: 16px;
+  background-color: #ff7a00;
 }

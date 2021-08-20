@@ -14,11 +14,11 @@
 </head>
 
 <body>
-    <div class="container-lg bg-white rounded-3 p-4 my-3">
+    <div class="main-container container-lg bg-white p-4 my-3">
         <div class="row">
             <!-- Navbar -->
             <div class="col-lg-2 d-none d-lg-block">
-                <div class="container p-2 d-flex justify-content-center align-items-center flex-column">
+                <div class="container p-1 d-flex justify-content-center align-items-center flex-column">
                     <div class="row">
                         <div class="col">
                             <img src="/img/logo.svg" alt="logo" class="img-fluid">
@@ -101,15 +101,23 @@
             </div>
             <!-- /Navbar -->
             <!-- Main -->
-            <div class="col-lg-6 p-2 d-flex justify-content-center align-items-center flex-column">
-                <div class="container bg-secondary bg-opacity-10 rounded-3 p-5 text-dark">
-                    <div class="row">
+            <div class="main col-lg-6 d-flex justify-content-center align-items-center flex-column">
+                <div class="container p-1 text-dark">
+                    <div class="row d-flex justify-content-between align-items-center">
                         <div class="col">
                             <h1 class="welcome">Hello, Omid! &#x1F44B;</h1>
-                            <p class="text-muted">Time explore the world.</p>
+                            <p class="text-muted">Time to explore the world.</p>
                         </div>
                         <div class="col d-flex justify-content-between align-items-center">
-                            <input class="p-3 rounded-pill" type="text" placeholder="Search Destination...">
+                            <input class="shadow-sm p-3 me-md-2 rounded-pill" type="text" placeholder="Search Destination...">
+                            <div class="notification shadow-sm rounded-circle bg-white d-flex justify-content-center align-items-center">
+                                <svg width="20" height="25" viewBox="0 0 20 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M19.0207 17.5952C18.3935 16.6593 17.5352 15.3776 17.5352 11.7297V10.0857C17.5352 6.61749 15.22 3.68319 12.0554 2.73727V2.41414C12.0554 1.20524 11.0719 0.222229 9.86357 0.222229C8.65524 0.222229 7.67166 1.20524 7.67166 2.41414V2.73727C4.50716 3.68319 2.19191 6.61749 2.19191 10.0857V11.7297C2.19191 15.3776 1.33358 16.6593 0.706372 17.5952C0.343528 18.1373 0 18.6494 0 19.4013C0 21.1878 3.72425 21.8146 6.74372 22.0306C7.16708 23.3859 8.40983 24.333 9.86352 24.333C11.3172 24.333 12.56 23.3859 12.9833 22.0306C16.0028 21.8146 19.727 21.1878 19.727 19.4013C19.7271 18.6494 19.3835 18.1373 19.0207 17.5952ZM8.76759 2.41414C8.76759 1.81 9.25886 1.31821 9.86352 1.31821C10.4682 1.31821 10.9595 1.80995 10.9595 2.41414V2.50168C10.6006 2.45 10.2366 2.41414 9.86357 2.41414C9.49055 2.41414 9.12658 2.45 8.76764 2.50168V2.41414H8.76759ZM9.86357 23.2371C9.04449 23.2371 8.32512 22.7851 7.95143 22.0994C8.72793 22.1321 9.40219 22.1412 9.86357 22.1412C10.325 22.1412 10.9993 22.1321 11.7758 22.0994C11.4021 22.7851 10.6827 23.2371 9.86357 23.2371ZM9.86357 21.0452C4.84509 21.0452 1.09598 20.1772 1.09598 19.4013C1.09598 19.0005 1.2651 18.7302 1.61721 18.2053C2.28181 17.2121 3.28789 15.711 3.28789 11.7297V10.0857C3.28789 6.45972 6.23754 3.51007 9.86357 3.51007C13.4896 3.51007 16.4392 6.45972 16.4392 10.0857V11.7297C16.4392 15.711 17.4453 17.2121 18.1099 18.2053C18.462 18.7302 18.6312 19.0005 18.6312 19.4013C18.6311 20.1773 14.882 21.0452 9.86357 21.0452Z" fill="black"/>
+                                </svg>
+                                <div class="notification-count text-white rounded-circle d-flex justify-content-center align-items-center">
+                                    5
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
